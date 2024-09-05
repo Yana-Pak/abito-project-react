@@ -7,7 +7,7 @@ export const Header = () => {
                 <div className="header__box">
                     <Link to={'/'} className="header__logo">
                         <div className="header__logo">
-                            <img src="/img/logo.svg" alt="logo" />
+                            <img src="/abito-project-react/img/logo.svg" alt="logo" />
                             <span className="logo__text">Abito</span>
                         </div>
                     </Link>
@@ -16,7 +16,7 @@ export const Header = () => {
                         <button className="btn btn-primary">Подать объявление</button>
                     </div>
                     <div className="header__burger">
-                        <img src="/img/burger.svg" alt="" />
+                        <img src="/abito-project-react/img/burger.svg" alt="" />
                     </div>
                 </div>
             </div>

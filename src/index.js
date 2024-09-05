@@ -33,7 +33,7 @@ const router = createBrowserRouter([
     exact: false
   }
 
-]);
+], { basename: '/abito-project-react' });
 
 
 

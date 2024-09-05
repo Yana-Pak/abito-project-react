@@ -34,7 +34,7 @@ export const Layout = () => {
                                 onChange={handleSearch}
                             />
                             <button className="btn btn-primary search-btn" onClick={handleSearchArray}>
-                                <img className="search-btn__icon" src="/img/search.svg" alt="search" />
+                                <img className="search-btn__icon" src="/abito-project-react/img/search.svg" alt="search" />
                                 <span className="search-btn__text">Найти</span>
                             </button>
                         </div>

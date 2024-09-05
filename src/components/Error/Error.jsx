@@ -7,7 +7,7 @@ export const Error = () => {
 
     return (
         <div className='error'>
-            <img src="img/error404.jpg" className="error__img" alt="error404" />
+            <img src="/abito-project-react/img/error404.jpg" className="error__img" alt="error404" />
             <Link to={'/'} >
                 <button className='error__btn'>Вернуться</button>
             </Link>

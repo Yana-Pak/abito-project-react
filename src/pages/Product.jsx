@@ -1,5 +1,6 @@
 import { useOutletContext, useParams } from "react-router-dom";
-
+import { SidebarList } from "../components/Sidebar/SidebarList"
+import { sidebarArray } from "../constants"
 
 
 export const Product = () => {
@@ -33,25 +34,16 @@ export const Product = () => {
                             </h3>
                             <div className="side__box">
                                 <div className="side__list">
-                                    <div className="side__list-item">
-                                        <img className="side-list-item__img" src="/img/delivery.svg" alt="delivery" />
-
-                                        <h5 className="list-item__title">Доставка</h5>
-                                        <p className="list-item__text">Проверка при получении и возможность бесплатно вернуть
-                                            товар</p>
-                                    </div>
-                                    <div className="side__list-item">
-                                        <img src="/img/car.svg" alt="delivery" className="side-list-item__img" />
-                                        <h5 className="list-item__title">Автотека</h5>
-                                        <p className="list-item__text">Отчёт с историей авто: пробег, владельцы, сведения о
-                                            залоге, ДТП и ремонтах</p>
-                                    </div>
-                                    <div className="side__list-item">
-                                        <img src="/img/love.svg" alt="delivery" className="side-list-item__img" />
-                                        <h5 className="list-item__title">Онлайн-бронирование жилья</h5>
-                                        <p className="list-item__text">Посуточная аренда квартир и домов: большой выбор
-                                            вариантов для поездок по России</p>
-                                    </div>
+                                    {
+                                        sidebarArray.map(item => (
+                                            <SidebarList
+                                                key={item.id}
+                                                img={item.img}
+                                                title={item.title}
+                                                text={item.text}
+                                            />
+                                        ))
+                                    }
                                 </div>
 
                                 <div className="content-side__footer">
