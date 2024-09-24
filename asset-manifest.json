@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/abito-project-react/static/css/main.5c18eaa0.css",
-    "main.js": "/abito-project-react/static/js/main.e2847660.js",
+    "main.js": "/abito-project-react/static/js/main.8ab84d64.js",
     "index.html": "/abito-project-react/index.html",
     "main.5c18eaa0.css.map": "/abito-project-react/static/css/main.5c18eaa0.css.map",
-    "main.e2847660.js.map": "/abito-project-react/static/js/main.e2847660.js.map"
+    "main.8ab84d64.js.map": "/abito-project-react/static/js/main.8ab84d64.js.map"
   },
   "entrypoints": [
     "static/css/main.5c18eaa0.css",
-    "static/js/main.e2847660.js"
+    "static/js/main.8ab84d64.js"
   ]
 }
